@@ -1,0 +1,19 @@
+{
+  "name": "lucky-image-downloader",
+  "version": "1.0.0",
+  "description": "takes in a csv, downloads images, drops them into an sftp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intermsof/lucky-image-downloader.git"
+  },
+  "author": "Alex Pan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Intermsof/lucky-image-downloader/issues"
+  },
+  "homepage": "https://github.com/Intermsof/lucky-image-downloader#readme"
+}
