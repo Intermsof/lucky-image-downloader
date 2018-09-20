@@ -18,7 +18,8 @@ A file to run for testing purposes
 
 ### env.json structure
 
-```{
+```
+{
     "development":{
         "host": "My SFTP Host here",
         "username": "My SFTP username here",
