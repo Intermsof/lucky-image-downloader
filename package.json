@@ -4,7 +4,8 @@
   "description": "takes in a csv, downloads images, drops them into an sftp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/tester.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Intermsof/lucky-image-downloader/issues"
   },
-  "homepage": "https://github.com/Intermsof/lucky-image-downloader#readme"
+  "homepage": "https://github.com/Intermsof/lucky-image-downloader#readme",
+  "dependencies": {
+    "ssh2-sftp-client": "^3.1.0"
+  }
 }
